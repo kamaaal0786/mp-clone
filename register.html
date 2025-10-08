@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Register - ChatLang</title>
+  <link rel="stylesheet" href="auth.css" />
+</head>
+
+<body>
+  <div class="auth-container">
+    <div class="auth-box">
+      <h2>Create Account</h2>
+      <form id="register-form">
+        <div class="input-group">
+          <input type="text" id="username" required />
+          <label>Username</label>
+        </div>
+        <div class="input-group">
+          <input type="email" id="email" required />
+          <label>Email</label>
+        </div>
+        <div class="input-group">
+          <input type="password" id="password" required />
+          <label>Password</label>
+        </div>
+
+        <div class="input-group">
+ <select id="native-language" required>
+        <option value="" disabled selected>Select Native Language</option>
+        <option value="English">English</option>
+        <option value="Spanish">Spanish</option>
+        <option value="French">French</option>
+        <option value="German">German</option>
+        <option value="Hindi">Hindi</option>
+        <option value="Mandarin">Mandarin</option>
+        <option value="Portuguese">Portuguese</option>
+        <option value="Russian">Russian</option>
+        <option value="Japanese">Japanese</option>
+        <option value="Arabic">Arabic</option>
+        <option value="Italian">Italian</option>
+    </select>
+</div>
+<div class="input-group">
+    <select id="target-language" required>
+        <option value="" disabled selected>Select Target Language</option>
+        <option value="English">English</option>
+        <option value="Spanish">Spanish</option>
+        <option value="French">French</option>
+        <option value="German">German</option>
+        <option value="Hindi">Hindi</option>
+        <option value="Mandarin">Mandarin</option>
+        <option value="Portuguese">Portuguese</option>
+        <option value="Russian">Russian</option>
+        <option value="Japanese">Japanese</option>
+        <option value="Arabic">Arabic</option>
+        <option value="Italian">Italian</option>
+    </select>
+</div>
+        <button type="submit" class="cta-btn">Register</button>
+        <p class="switch">
+          Already have an account? <a href="login.html">Login</a><br>
+           <a href="index.html">← Back to Home</a>
+        </p>
+      </form>
+    </div>
+  </div>
+
+  <script src="auth.js"></script>
+</body>
+
+</html>
